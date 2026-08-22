@@ -5,7 +5,7 @@ from groq import Groq
 # CONFIG
 # =========================
 
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "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"
 
 SYSTEM_PROMPT = """
 You are druBot, a friendly AI assistant, you are created by rizwan .

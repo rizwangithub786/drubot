@@ -7,7 +7,7 @@ from groq import Groq
 # =========================
 
 # Get API key securely from Streamlit Secrets or environment variables
-GROQ_API_KEY = st.secrets.get("GROQ_API_KEY", os.getenv("GROQ_API_KEY"))
+GROQ_API_KEY = st.secrets.get("GROQ_API_KEY", os.getenv("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"))
 
 if not GROQ_API_KEY:
     st.error("GROQ_API_KEY is not configured.")

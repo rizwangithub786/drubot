@@ -16,7 +16,7 @@ st.set_page_config(
 # =========================
 
 try:
-    GROQ_API_KEY = st.secrets["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"]
+    GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 except Exception:
     st.error("⚠️ GROQ_API_KEY is not configured.")
     st.info(
